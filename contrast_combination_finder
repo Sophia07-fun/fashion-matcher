@@ -31,3 +31,5 @@ elif hair_color == "dark" and skin_tone == "dark":
 #medium contrast: any
 #low contrast: analogue, triad
 
+if contrast == "high":
+  colours of clothes complimentary
