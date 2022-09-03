@@ -44,3 +44,21 @@ complimentary_combos = {
 "color1" : "color7", "color2" : "color8", "color3" : "color9", "color4" : "color10","color5" : "color11", "color6" : "color12"
  color7" : "color1", "color8" : "color2", "color9" : "color3", "color10" : "color4","color11" : "color5", "color12" : "color6"}
 
+triad_combos1 = { 
+"color1" : "color7", "color2" : "color8", "color3" : "color9", "color4" : "color10","color5" : "color11", "color6" : "color12"
+ color7" : "color1", "color8" : "color2", "color9" : "color3", "color10" : "color4","color11" : "color5", "color12" : "color6"}
+
+triad_combos2 = { 
+"color1" : "color7", "color2" : "color8", "color3" : "color9", "color4" : "color10","color5" : "color11", "color6" : "color12"
+ color7" : "color1", "color8" : "color2", "color9" : "color3", "color10" : "color4","color11" : "color5", "color12" : "color6"}
+
+analogue_combos1 = { 
+"color1" : "color7", "color2" : "color8", "color3" : "color9", "color4" : "color10","color5" : "color11", "color6" : "color12"
+ color7" : "color1", "color8" : "color2", "color9" : "color3", "color10" : "color4","color11" : "color5", "color12" : "color6"}
+
+analogue_combos2 = { 
+"color1" : "color7", "color2" : "color8", "color3" : "color9", "color4" : "color10","color5" : "color11", "color6" : "color12"
+ color7" : "color1", "color8" : "color2", "color9" : "color3", "color10" : "color4","color11" : "color5", "color12" : "color6"}
+
+
+
