@@ -1,10 +1,3 @@
-#der user wählt basierend auf einer
-#erklärung seinen Kontrasttyp aus
-#--------------erklärung auf der website-------
-#helle haare + heller hautton = low contrast
-#helle haare + dunkler hautton = medium
-#dunkle haare + dunkler hautton = medium
-#dunkle haare + heller hautton = high contrast
 
 contrast = "wird vom user ausgewählt"
 
