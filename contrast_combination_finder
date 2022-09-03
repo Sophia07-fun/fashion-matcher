@@ -39,13 +39,4 @@ if contrast == "medium":
 
 if contrast == "low":
   colours_of_clothes = "analogue"
-  
- 
- 
-if contrast == "medium":
-  colours_of_clothes = "any"
- 
 
-if contrast == "low":
-  colours_of_clothes = "analogue"
- 
