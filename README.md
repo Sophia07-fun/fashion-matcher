@@ -1,1 +1,1 @@
-https://stackblitz.com/edit/bootstrap-5-mqdkxo?file=src%2Findex.html
+html "colorpicker" muss noch funktionieren und die gewählte farbe der python datei "colorcombinator.py" mitteilen
