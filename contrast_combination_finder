@@ -1,8 +1,15 @@
 #wir gehen davon aus, dass es 4 hauttöne und haarfarben zur auswahl gibt
-# 1: am hellsten 4: am dunkelsten
+# 1 und 2 sind hell, 3 und 4 sind dunkel
 
 skin_tone = 1
 hair_color = 1
 
-if skin_tone = 1:
-  
+if skin_tone == 1 or skin_tone == 2:
+  skin_tone = "light"
+else:
+  skin_tone = "dark"
+ 
+if hair_color == 1 or hair_color == 2:
+  hair_color = "light"
+ else:
+  hair_color = "dark"
