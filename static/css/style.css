@@ -1,0 +1,20 @@
+.colorYellow, .colorYellow:hover {
+  border:none;
+  background-color:brown;
+color: white;
+}
+.colorcontrast1 {
+  color:white;
+  background-color:rgb(58, 126, 189);
+  
+}
+.colorcontrast2 {
+  color:white;
+  background-color:rgb(58, 126, 189);
+}
+.colorcontrast3 {
+  color:white;
+ background-color:rgb(58, 126, 189);
+}
+h1 {color:#7256EE;}
+p {color:blue;}
