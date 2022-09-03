@@ -13,3 +13,16 @@ if hair_color == 1 or hair_color == 2:
   hair_color = "light"
  else:
   hair_color = "dark"
+
+
+if hair_color == "light" and skin_tone == "light":
+  contrast = "low"
+  
+elif hair_color == "light" and skin_tone == "dark":
+  contrast = "medium"
+  
+elif hair_color == "dark" and skin_tone == "light":
+  contrast = "high"
+  
+elif hair_color == "dark" and skin_tone == "dark":
+  contrast = "medium"
