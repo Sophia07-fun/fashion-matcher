@@ -1,3 +1,8 @@
 #wir gehen davon aus, dass es 4 hauttöne und haarfarben zur auswahl gibt
+# 1: am hellsten 4: am dunkelsten
+
 skin_tone = 1
 hair_color = 1
+
+if skin_tone = 1:
+  
