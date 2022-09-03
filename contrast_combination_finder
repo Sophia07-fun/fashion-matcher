@@ -39,4 +39,6 @@ if contrast == "medium":
 
 if contrast == "low":
   colours_of_clothes = "analogue"
+  
+  complimentary_combos = 
 
