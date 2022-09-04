@@ -7,4 +7,12 @@ def add_clothes():
 
 @fashion_blueprint.route("/setup",methods=['GET'])
 def setup():
+
+    if request.args.lengh > 0:
+        preference = request.args['contrast']
+        return redirect(url_for('fashion_blueprint.add_clothes'))
+    return render_template('setup.html')
+
+@fashion_blueprint.route("/setup",methods=['POST'])
+def setup_user():
     return render_template('setup.html')

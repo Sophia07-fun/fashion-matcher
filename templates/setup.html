@@ -36,18 +36,19 @@
         role="group"
         aria-label="Basic mixed styles example"
       >
-        <button type="button" onclick="myFunction()" class="colorcontrast1 btn">
+        <button type="button" onclick="myFunction('low')" class="colorcontrast1 btn">
           Low Contrast
         </button>
-        <button type="button" onclick="myFunction()" class="colorcontrast2 btn">
+        <button type="button" onclick="myFunction('medium')" class="colorcontrast2 btn">
           Medium contrast
         </button>
-        <button type="button" onclick="myFunction()" class="colorcontrast3 btn">
+        <button type="button" onclick="myFunction('high')" class="colorcontrast3 btn">
           High contrast
         </button>
         <script>
-          function myFunction() {
-            window.location.href = 'login.html';
+          function myFunction(contrast) {
+
+            window.location.href = '/fashion/setup?contrast='+ contrast ;
           }
         </script>
         <div class="btn-group" role="group" aria-label="Basic example"></div>
