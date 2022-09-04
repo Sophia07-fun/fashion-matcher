@@ -1,6 +1,8 @@
 from flask import Blueprint, request, render_template, session, abort, url_for, redirect
 from database.models import User, db
+
 login_blueprint = Blueprint ( 'login_blueprint',__name__,template_folder="templates" )
+
 @login_blueprint.route("/",methods=['GET'])
 def test22():
     return render_template('login.html')
@@ -24,10 +26,6 @@ def login():
 
 
 
-
-
-
-
 @login_blueprint.route('/register',methods=['POST'])
 def register():
     print(request.form)
@@ -35,7 +33,7 @@ def register():
     print(user)
     db.session.add(user)
     db.session.commit()
-    return "therapie"
+    return redirect(url_for("fashion_blueprint.setup"))
 
 @login_blueprint.route('/register',methods=['GET'])
 def register_view():

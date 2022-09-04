@@ -1,61 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Fashion-Matcher</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://unpkg.com/bootstrap@5.2.0/dist/js/bootstrap.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.2.0/dist/css/bootstrap.css" />
 
-    <link rel="stylesheet" href="/static/css/style.css" />
+<head>
+  <title>Fashion-Matcher</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/bootstrap@5.2.0/dist/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.2.0/dist/css/bootstrap.css" />
 
-  </head>
+  <link rel="stylesheet" href="/static/css/style.css" />
 
-  <body>
-    <div
-      class="container"
-      style="display: flex; flex-direction: column; align-items: center"
-    >
-      Contrast is determined by the difference in brightness between skin and
-      hair color. If you have a rather lighter skin tone and light hair, then
-      you have a low contrast.<br />
-      On the other hand, if you have a lighter skin tone and dark hair, then you
-      have high contrast. If you have a darker skin tone and dark hair color,
-      you have medium contrast.<br />
-      All other combinations of skin tone and hair color also form a medium
-      contrast.
+</head>
 
-      <h1>
-        <label for="exampleColorInput" class="form-label">
-          Choose your color contrast
-        </label>
-      </h1>
-      <div
-        class="btn-group"
-        role="group"
-        aria-label="Basic mixed styles example"
-      >
-        <button type="button" onclick="myFunction('low')" class="colorcontrast1 btn">
-          Low Contrast
-        </button>
-        <button type="button" onclick="myFunction('medium')" class="colorcontrast2 btn">
-          Medium contrast
-        </button>
-        <button type="button" onclick="myFunction('high')" class="colorcontrast3 btn">
-          High contrast
-        </button>
-        <script>
-          function myFunction(contrast) {
+<body>
+  <div class="container" style="display: flex; flex-direction: column; align-items: center">
+    Contrast is determined by the difference in brightness between skin and
+    hair color. If you have a rather lighter skin tone and light hair, then
+    you have a low contrast.<br />
+    On the other hand, if you have a lighter skin tone and dark hair, then you
+    have high contrast. If you have a darker skin tone and dark hair color,
+    you have medium contrast.<br />
+    All other combinations of skin tone and hair color also form a medium
+    contrast.
 
-            window.location.href = '/fashion/setup?contrast='+ contrast ;
-          }
-        </script>
-        <div class="btn-group" role="group" aria-label="Basic example"></div>
-      </div>
+    <h1>
+      <label for="exampleColorInput" class="form-label">
+        Choose your color contrast
+      </label>
+    </h1>
+    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+      <button type="button" onclick="myFunction('low')" class="colorcontrast1 btn">
+        Low Contrast
+      </button>
+      <button type="button" onclick="myFunction('medium')" class="colorcontrast2 btn">
+        Medium contrast
+      </button>
+      <button type="button" onclick="myFunction('high')" class="colorcontrast3 btn">
+        High contrast
+      </button>
+      <script>
+        function myFunction(contrast) {
+          window.location.href = '/fashion/setup?contrast=' + contrast
+        }
+      </script>
       <div class="btn-group" role="group" aria-label="Basic example"></div>
-
-
     </div>
-  </body>
+    <div class="btn-group" role="group" aria-label="Basic example"></div>
+
+
+  </div>
+</body>
+
 </html>
