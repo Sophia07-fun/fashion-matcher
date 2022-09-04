@@ -30,10 +30,6 @@ analogue_combos2 = {
  "color7" : "color6", "color8" : "color7", "color9" : "color8", "color10" : "color9","color11" : "color10", "color12" : "color11"}
 
 
-#die farbe, die der nutzer kombinieren möchte, muss hier als user_color festgelegt werden
-
-user_color = "color1"
-
 if colours_of_clothes == "complimentary":
   print(complimentary_combos[user_color])
   print(triad_combos1[user_color])
@@ -53,5 +49,4 @@ if colours_of_clothes == "analogue":
   print(triad_combos1[user_color])
   print(triad_combos2[user_color])
 
-#statt der print-befehle müssen die farben
-# auf der website angezeigt werden
+#statt der print-befehle sollen die farben auf colorchoice.html angezeigt werden
